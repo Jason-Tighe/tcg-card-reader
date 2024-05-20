@@ -1,0 +1,76 @@
+{
+  "hash": "568c1e29",
+  "configHash": "403f81ea",
+  "lockfileHash": "ebf74ad2",
+  "browserHash": "71271d45",
+  "optimized": {
+    "@angular/common": {
+      "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
+      "file": "@angular_common.js",
+      "fileHash": "dbcf899b",
+      "needsInterop": false
+    },
+    "@angular/core": {
+      "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "0afd2d4a",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "1439cfa3",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "7ace3d96",
+      "needsInterop": false
+    },
+    "@angular/fire/compat": {
+      "src": "../../../../../node_modules/@angular/fire/fesm2022/angular-fire-compat.mjs",
+      "file": "@angular_fire_compat.js",
+      "fileHash": "9336ba97",
+      "needsInterop": false
+    },
+    "dotenv/config": {
+      "src": "../../../../../node_modules/dotenv/config.js",
+      "file": "dotenv_config.js",
+      "fileHash": "3d193730",
+      "needsInterop": true
+    },
+    "firebase/app": {
+      "src": "../../../../../node_modules/firebase/app/dist/esm/index.esm.js",
+      "file": "firebase_app.js",
+      "fileHash": "8fc46ddf",
+      "needsInterop": false
+    },
+    "firebase/analytics": {
+      "src": "../../../../../node_modules/firebase/analytics/dist/esm/index.esm.js",
+      "file": "firebase_analytics.js",
+      "fileHash": "c4dbcaf9",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-JS3SLKH3": {
+      "file": "chunk-JS3SLKH3.js"
+    },
+    "chunk-GU4S23YI": {
+      "file": "chunk-GU4S23YI.js"
+    },
+    "chunk-4IG4CLZ6": {
+      "file": "chunk-4IG4CLZ6.js"
+    },
+    "chunk-W7KAPF6J": {
+      "file": "chunk-W7KAPF6J.js"
+    },
+    "chunk-VOUS2Q6J": {
+      "file": "chunk-VOUS2Q6J.js"
+    },
+    "chunk-SFFCLR5V": {
+      "file": "chunk-SFFCLR5V.js"
+    }
+  }
+}

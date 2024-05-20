@@ -1,6 +1,16 @@
-import { bootstrapApplication } from '@angular/platform-browser';
-import { appConfig } from './app/app.config';
-import { AppComponent } from './app/app.component';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { AppModule } from './app/app.module';
+import { initializeApp } from 'firebase/app';
+import { getAnalytics } from 'firebase/analytics';
+import { environment } from './assets/environments/environment';
 
-bootstrapApplication(AppComponent, appConfig)
+// Initialize Firebase app
+const app = initializeApp(environment.firebaseConfig);
+
+// Initialize Google Analytics
+const analytics = getAnalytics(app);
+
+
+
+platformBrowserDynamic().bootstrapModule(AppModule)
   .catch((err) => console.error(err));
